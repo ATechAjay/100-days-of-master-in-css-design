@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 58</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        background: url(img/flower-1.jpg);
+        background-size: cover;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      li {
+        list-style: none;
+        font-size: 32px;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        cursor: pointer;
+        transition: all 0.5s;
+      }
+      li:hover {
+        color: orange;
+      }
+
+
+      @media (max-width: 850px) {
+        ul {
+          flex-direction: column;
+          height: 100vh;
+          width: 100vw;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          background: rgba(255, 255, 255, 0.2);
+        }
+
+        li {
+          width: 100%;
+          text-align: center;
+          transition: all 0.3s;
+        }
+
+        li:hover {
+          background: rgba(255, 255, 255, 0.3);
+          color: #000;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>home</li>
+        <li>product</li>
+        <li>download</li>
+        <li>contact</li>
+      </ul>
+    </nav>
+  </body>
+</html>

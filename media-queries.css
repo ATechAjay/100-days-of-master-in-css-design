@@ -1,0 +1,127 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+/* @media (max-width: 1100px) {
+  body {
+    background: red;
+  }
+} */
+
+@media (max-width: 68.5rem) {
+  /* body {
+    background: red;
+  } */
+
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+
+  .client-faces p {
+    font-size: 1.6rem;
+    margin-left: 0;
+  }
+
+  .client-faces {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+}
+
+/* 53rem = 848px */
+
+@media (max-width: 53rem) {
+  /* body {
+    background: green;
+  } */
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 8rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .client-faces {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.8rem;
+  }
+
+  .client-faces p {
+    font-size: 2rem;
+  }
+
+  .hero-nav-link-box {
+    display: none;
+  }
+
+  .hamBurger {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
+
+/* day 95 */
+@media (max-width: 31rem) {
+  body {
+    background: red;
+  }
+
+  .client-faces {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+  }
+
+  .hero-heading {
+    font-size: 3rem;
+  }
+
+  .hero-container {
+    gap: 0;
+  }
+
+  .hero-img {
+    height: 28rem;
+  }
+
+  /* day 96 */
+  .hero-link-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .hero-link-cta a:link,
+  .hero-link-cta a:visited {
+    width: 100%;
+  }
+
+  .project-heading {
+    font-size: 3rem;
+  }
+}
+
+/* Next breakpoint is at 390px */
+
+/* 
+.element {
+  display: none;
+}
+
+.element {
+  Hide for the users
+  opacity: 0;
+  Hide from the screereaders
+  visibility: hidden;
+  Hide from the keyboard and mouse envents
+  pointer-events: none;
+} */

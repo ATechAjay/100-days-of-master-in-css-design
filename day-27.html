@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/581f7d84ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>day 27</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: #e0e0e0;
+      }
+
+      section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.5s;
+      }
+      div span {
+        background: dodgerblue;
+        padding: 7px 14px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 3px;
+        position: relative;
+        transform: translateY(80%);
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        opacity: 0;
+        border-radius: 100px;
+      }
+
+      div:hover span {
+        transform: translateY(-30%);
+        opacity: 1;
+      }
+      div span::before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: dodgerblue;
+        bottom: 0;
+        left: 50%;
+        /* transform: translate(-50%); */
+        /* left: 50%; */
+        /* bottom = height / 2 */
+        /* bottom: -5px; */
+        /*   
+         OR 
+         bottom: 0;
+         THEN 
+         👉 translateY(50%) 
+              
+        */
+        transform: translate(-50%, 50%) rotate(45deg);
+      }
+
+      div i {
+        font-size: 32px;
+
+        padding: 10px;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: #e0e0e0;
+        box-shadow: 5px 5px 10px #00000052, -5px -5px 10px #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div><span>twitter</span><i class="fab fa-twitter"></i></div>
+      <div><span>instagram</span><i class="fab fa-instagram"></i></div>
+      <div><span>facebook</span><i class="fab fa-facebook"></i></div>
+      <div><span>linkedin</span><i class="fab fa-linkedin-in"></i></div>
+      <div><span>github</span><i class="fab fa-github"></i></div>
+      <div></div>
+    </section>
+  </body>
+</html>

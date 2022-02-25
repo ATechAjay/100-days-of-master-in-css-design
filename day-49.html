@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 49</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        /* background: #666; */
+      }
+
+      .parent {
+        width: 200px;
+        height: 200px;
+        /* background: red; */
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+        position: relative;
+        border-radius: 50px;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .first-border {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border: 10px solid #fff;
+        border-radius: 40px;
+      }
+
+      .dot {
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        background: #fff;
+        border-radius: 50%;
+        top: 27%;
+        right: 25%;
+      }
+
+      .circle {
+        height: 70px;
+        width: 70px;
+        border: 10px solid #fff;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="first-border"></div>
+      <div class="dot"></div>
+      <div class="circle"></div>
+    </div>
+  </body>
+</html>

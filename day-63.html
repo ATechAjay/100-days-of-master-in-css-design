@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(
+          to right,
+          #000428,
+          #004e92
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        line-height: 1;
+      }
+      .card {
+        position: relative;
+        width: 350px;
+        height: 450px;
+        border-radius: 10px;
+        background: linear-gradient(
+          to right,
+          #00c9ff,
+          #92fe9d
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        box-shadow: 0 0 10px white;
+        overflow: hidden;
+      }
+      .img-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      img {
+        width: 100%;
+        transition: all 0.4s;
+      }
+
+      .card:hover img {
+        filter: blur(7px);
+      }
+      .info {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 0;
+        backdrop-filter: blur(15px);
+        text-align: center;
+        transition: all 0.4s;
+        overflow: hidden;
+      }
+      .card:hover .info {
+        height: 100%;
+        width: 100%;
+      }
+      .info h2 {
+        font-size: 34px;
+        padding: 20px 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .info p {
+        font-size: 24px;
+        padding: 10px;
+        line-height: 1.5;
+        transition: all 0.4s;
+        color: #ffffff;
+      }
+
+      .card:hover p {
+        transition-delay: 0.2s;
+      }
+      .card:hover img {
+        transform: translateX(50%) scale(2);
+      }
+      .info a:link {
+        display: inline-block;
+        font-size: 28px;
+        margin-top: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        background: orange;
+        padding: 10px 20px;
+        border-radius: 7px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="img-box">
+        <img src="img/man.png" alt="" />
+      </div>
+      <div class="info">
+        <h2>handsome</h2>
+        <p>
+          ⭐ Fall in love with HTML, CSS, JS ⭐ l love to make notes and videos
+          then share with my great audience ⭐ Tweets About Web development👨‍💻
+        </p>
+        <a href="#">Follow</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 34</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: #15202b;
+      }
+
+      button {
+        background: transparent;
+        color: #ad50ff;
+        font-size: 66px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        position: relative;
+        border: 4px solid #ad50ff;
+        transition: all 1s;
+      }
+      button:hover {
+        border: 4px solid #ffffff;
+        color: #fff;
+      }
+      button span {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to right, #8e2de2, #4a00e0);
+        top: 0;
+        left: 0;
+        z-index: -1;
+        clip-path: circle(0%);
+        transition: all 1s;
+      }
+
+      button:hover span {
+        clip-path: circle(100%);
+      }
+    </style>
+  </head>
+  <body>
+    <button><span></span>hover</button>
+  </body>
+</html>

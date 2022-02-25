@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Child selector</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: #888;
+        flex-direction: column;
+      }
+
+      div > p {
+        color: yellow;
+      }
+
+      section > p {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Child selector (>)</h1>
+    <div>
+      <p>1st para</p>
+      <p>2nd para</p>
+      <p>3rd para</p>
+      <section>
+        <p>sub para 1</p>
+        <p>sub para 2</p>
+        <p>sub para 3</p>
+      </section>
+    </div>
+  </body>
+</html>

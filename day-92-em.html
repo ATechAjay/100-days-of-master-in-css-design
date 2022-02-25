@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>em units</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: #333;
+        color: #fff;
+      }
+      .parent {
+        padding: 0 50px;
+        font-size: 10px;
+      }
+
+      .child {
+        /*  2em = 20px realative to its parent elements */
+        font-size: 2em;
+        /* 2em = 40px */
+        padding: 2em;
+        /* 1em = 20px */
+        border: 1em solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="parent">
+      <div class="child">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          laboriosam praesentium officiis omnis quam amet minima, consectetur
+          placeat, suscipit dicta magni! Dolores vel doloremque reprehenderit
+          autem dolorem quia ad corporis!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

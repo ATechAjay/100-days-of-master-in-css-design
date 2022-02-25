@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .parent {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .child {
+        width: 1280px;
+        height: 720px;
+        animation: slider 10s linear infinite;
+        object-fit: cover;
+        background-size: cover;
+      }
+
+      @keyframes slider {
+        0% {
+          background: url(img/1.jpg);
+        }
+        20% {
+          background: url(img/2.jpg);
+        }
+        40% {
+          background: url(img/3.jpg);
+        }
+        60% {
+          background: url(img/4.jpg);
+        }
+        80% {
+          background: url(img/5.jpg);
+        }
+        100% {
+          background: url(img/6.jpg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+  </body>
+</html>
+s

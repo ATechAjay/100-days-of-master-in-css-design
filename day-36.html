@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 36</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+      }
+
+      div {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        cursor: pointer;
+        transform: rotate(45deg);
+        /* Initially, i rotate our containe to 45 degree. */
+      }
+
+      div span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: red;
+        transition: all 0.5s;
+        /* Then we have to desing our span tags. */
+      }
+      div:hover span:nth-child(1) {
+        transform: translate(-50px, -50px);
+        opacity: 1;
+        /* And finall we have to desing our individual span tags.
+        
+        1st span tag moved up 50px and opacity is set to 1.*/
+      }
+      div:hover span:nth-child(2) {
+        transform: translate(-40px, -40px);
+        opacity: 0.8;
+        /* 2nd span tag moved up 40px and opacity is set to 0.8 */
+      }
+      div:hover span:nth-child(3) {
+        transform: translate(-30px, -30px);
+        opacity: 0.6;
+        /* 3rd span tag moved up 30px and opacity is set to 0.6 */
+      }
+      div:hover span:nth-child(4) {
+        transform: translate(-20px, -20px);
+        opacity: 0.4;
+        /* 4th span tag moved up 40px and opacity is set to 0.4 */
+      }
+      div:hover span:nth-child(5) {
+        transform: translate(-10px, -10px);
+        opacity: 0.2;
+        /* 5th span tag moved up 40px and opacity is set to 0.2 */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- 1. This layers are desingned by these 5 span tags, each span tag is used to create this layer. 
+
+          2. And we have to set opacity in each span tags.
+          like :
+
+          1st span tag = opacity : 1; (top)
+          2nd span tag = opacity : 0.8;
+          3rd span tag = opacity : 0.6;
+          4th span tag = opacity : 0.4;
+          5th span tag = opacity : 0.2; (bottom)
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </body>
+</html>

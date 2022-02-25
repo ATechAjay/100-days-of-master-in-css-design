@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 71</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        /* background: #888; */
+      }
+
+      .parent {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .parent,
+      .img img {
+        border-radius: 9px;
+      }
+
+      .img img {
+        width: 100%;
+        transition: all 0.5s;
+        clip-path: circle(100% at 0 0, 100% 0, 100% 100%, 0 100%);
+      }
+      
+      .parent:hover img {
+        transform: translateY(-50%) scale(0.2);
+        clip-path: circle(50% at center);
+      }
+
+      .info {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        transform: translateY(40px);
+        transition: all 0.5s;
+        padding: 20px;
+        opacity: 0;
+        visibility: hidden;
+      }
+      .info p {
+        line-height: 1.3;
+      }
+      .info h1 {
+        letter-spacing: 1.4px;
+      }
+      .parent:hover .info {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .info a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 24px;
+        text-transform: uppercase;
+        background: #ffa500;
+        color: #000;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+        font-weight: 600;
+        letter-spacing: 2px;
+        transition: all 0.3s;
+        border-radius: 9px;
+        margin-top: 12px;
+      }
+
+      .info a:hover {
+        background: #ffb733
+      }
+
+      h1 span {
+        color: #ffa500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="img">
+        <img src="img/Ajay.jpg" alt="ATechAjay" />
+      </div>
+
+      <div class="info">
+        <h1>ATech<span>Ajay</span></h1>
+        <p>
+          ⭐ Fall in love with HTML, CSS, JS ⭐ l love to make notes and videos
+          then share with my great audience ⭐ Tweets About Web development
+        </p>
+
+        <a href="https://twitter.com/ATechAjay">follow</a>
+      </div>
+    </div>
+  </body>
+</html>

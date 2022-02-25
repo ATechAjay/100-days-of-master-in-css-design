@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rem</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: #333;
+        color: #fff;
+      }
+
+      html {
+        font-size: 10px;
+        /* font-size: 62.5%; */
+      }
+      .parent {
+        padding: 0 50px;
+        /* dose not affect */
+        font-size: 50px;
+      }
+      .child {
+        /*  2rem = 20px realative to the root element which is HTML. */
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ullam ipsum
+        facilis ipsam nobis voluptate cupiditate, quidem ex sequi modi sapiente
+        quis, pariatur qui repudiandae quod distinctio unde tenetur atque.
+      </div>
+    </div>
+  </body>
+</html>

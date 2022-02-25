@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(
+          to right,
+          #7f00ff,
+          #e100ff
+        );
+
+      }
+
+      button {
+        font-size: 44px;
+        border: none;
+        position: absolute;
+        background: transparent;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 10px 20px;
+        width: 250px;
+        height: 100px;
+        line-height: 100px;
+        color: #000000;
+        border-radius: 4px;
+        transition: all 0.5s;
+        cursor: pointer;
+        letter-spacing: 2px;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 4px;
+      }
+
+      .back {
+        background: white;
+      }
+
+      .front {
+        background: #fab005;
+        transition: all 0.5s;
+        clip-path: polygon(0 0, 50% 0, 60% 50%, 50% 100%, 0 100%);
+      }
+      .front:hover {
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
+      }
+
+      .back:hover ~ .front {
+        clip-path: polygon(0 0, 0 0, 0 50%, 0 100%, 0 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <button>
+      <span class="back">hover</span>
+      <span class="front">hover</span>
+    </button>
+  </body>
+</html>

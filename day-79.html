@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/581f7d84ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>day 79</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      }
+      .parent {
+        height: 100px;
+        width: 100px;
+        background: #40c057;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: relative;
+      }
+
+      .fas {
+        font-size: 44px;
+        color: #fff;
+      }
+
+      .parent::before,
+      .parent::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        transform: scale(0);
+        animation: wave 2s linear infinite;
+        z-index: -1;
+      }
+      .parent::after {
+        animation-delay: 1s;
+      }
+      @keyframes wave {
+        0% {
+          transform: scale(0);
+        }
+        100% {
+          transform: scale(2);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <i class="fas fa-phone"></i>
+    </div>
+  </body>
+</html>

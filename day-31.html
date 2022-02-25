@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #373b44, #4286f4);
+      }
+      .parent {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      img {
+        width: 100%;
+        transition: all 0.5s;
+      }
+
+      .info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #000000;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        transform: translateX(-100%);
+        transition: all 0.5s;
+      }
+
+      .parent:hover .info {
+        transform: translateX(0);
+      }
+      .parent:hover img {
+        transform: translateX(100%);
+      }
+
+      .info a {
+        text-transform: uppercase;
+        text-decoration: none;
+        background: orange;
+        font-weight: 600;
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <img
+        src="https://pbs.twimg.com/profile_images/1437118306276700160/Z7jQSUsu_400x400.jpg"
+        alt="ATechAjay"
+      />
+      <div class="info">
+        <h1>ATechAjay</h1>
+        <p>
+          ⭐ Fall in love with HTML, CSS, JS ⭐ l love to make notes and videos
+          then share with my great audience ⭐ Tweets About Web development👨‍💻
+        </p>
+
+        <a href="https://twitter.com/ATechAjay">connect</a>
+      </div>
+    </div>
+  </body>
+</html>
