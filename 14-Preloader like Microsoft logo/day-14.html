@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 14 ATechAjay</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      /* Now for this animated desinging...
+          We have to add 4 span element for the 4 boxes and these all boxes keep inside a container */
+
+      /* Now here i am set the 200px widht and height of the contiener.*/
+      .parent {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        animation: gap 1.5s linear infinite;
+      }
+
+      /* rememeber there are 4 child elements placed inside the parent element.
+      
+      so, we have to set the 100px widht and height of those 4 child elements, that conver entire parent element or contaienr element*/
+      span {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        animation: rotate 1.5s linear infinite;
+      }
+
+      /* You can palce 4 child elments inside the container like this. */
+      span:nth-child(1) {
+        top: 0;
+        left: 0;
+        background: #f25022;
+      }
+      span:nth-child(2) {
+        top: 0;
+        right: 0;
+        background: #7fba00;
+      }
+      span:nth-child(3) {
+        bottom: 0;
+        left: 0;
+        background: #00a4ef;
+      }
+      span:nth-child(4) {
+        bottom: 0;
+        right: 0;
+        background: #ffb900;
+      }
+
+      /* Now there are 2 animation desing.
+       
+      1. one animation is for parent element, which creates a gap between 4 child elements*/
+      @keyframes gap {
+        0% {
+          width: 200px;
+          height: 200px;
+        }
+        20% {
+          width: 200px;
+          height: 200px;
+        }
+        60% {
+          width: 250px;
+          height: 250px;
+        }
+        80% {
+          width: 250px;
+          height: 250px;
+        }
+        100% {
+          width: 200px;
+          height: 200px;
+        }
+      }
+
+      /* And one is for rotate child element to 90 degree. */
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        20% {
+          transform: rotate(0deg);
+        }
+        60% {
+          transform: rotate(90deg);
+        }
+        80% {
+          transform: rotate(90deg);
+        }
+        100% {
+          transform: rotate(90deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Now for this animated desinging...
+          We have to add 4 span element for the 4 boxes and these all boxes keep inside a container -->
+    <div class="parent">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </body>
+</html>
