@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+        line-height: 1;
+      }
+      body {
+        font-family: sans-serif;
+      }
+
+      .hero {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(#000000a9, #0000005b), url(img/laptop.jpg);
+        background-size: cover;
+        background-position: top;
+        overflow: hidden;
+      }
+      .navigation {
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+      }
+      .logo img {
+        width: 4rem;
+      }
+      .logo span {
+        color: #fff;
+        font-size: 24px;
+        text-transform: capitalize;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      .nav-link-box {
+        display: flex;
+        gap: 3.5rem;
+      }
+      .nav-link-box li {
+        list-style: none;
+        padding: 0.5rem 1rem;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 99;
+        transition: all 0.5s;
+        color: #000;
+        border-radius: 4px;
+      }
+
+      .nav-link-box li:hover a {
+        color: #000;
+      }
+
+      .nav-link-box li::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #ffffff;
+        transition: all 0.5s;
+        transform: translateX(-130%) scale(1.5);
+        z-index: -1;
+      }
+
+      .nav-link-box li:hover::before {
+        transform: translateX(0);
+      }
+
+      .nav-link-box li a,
+      .login {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 2rem;
+        color: #fff;
+      }
+
+      .login {
+        background: #fff;
+        color: #000;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        font-weight: 700;
+        transition: all 0.5s;
+      }
+      .login:hover {
+        background: #dddddd;
+      }
+
+      .hero-content {
+        width: 70%;
+        display: flex;
+        color: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 6.4rem auto;
+        gap: 18px;
+      }
+
+      .hero-content .hero-para-1 {
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+      .hero-content h1 {
+        text-transform: uppercase;
+        font-size: 4.5rem;
+        text-align: center;
+        line-height: 1.5;
+      }
+      .hero-content .hero-para-2 {
+        font-size: 1.8rem;
+        width: 70%;
+        text-align: center;
+        line-height: 1.5;
+      }
+
+      .hero-btn,
+      .active-btn {
+        font-size: 2.8rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        border-radius: 4px;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+      }
+      .active-btn {
+        background: #fff;
+        color: #000;
+      }
+      .hero-btn-box {
+        display: flex;
+        gap: 2.8rem;
+        margin-top: 2.8rem;
+      }
+
+      .hero-btn {
+        border: 1px solid #fff;
+        transition: all 0.5s;
+      }
+
+      .hero-btn:hover {
+        background: #ffffff;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <nav class="navigation">
+        <div class="logo">
+          <img src="img/apple.png" />
+          <span>nothing</span>
+        </div>
+        <ul class="nav-link-box">
+          <li><a href="#">home</a></li>
+          <li><a href="#">product</a></li>
+          <li><a href="#">pricing</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+
+        <a class="login" href="#">login&#8594;</a>
+      </nav>
+
+      <div class="hero-content">
+        <p class="hero-para-1">Lorem ipsum dolor sit amet</p>
+        <h1>Lorem ipsum dolor sit amet<br/>Dolor sit amet consectetur adipisicing elit</h1>
+
+        <p class="hero-para-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+          tempora laudantium! Ad corrupti dolores fugit quis distinctio amet non
+          neque, mollitia, possimus nisi culpa recusandae, libero et eveniet
+          perspiciatis maxime.
+        </p>
+        <div class="hero-btn-box">
+          <a class="hero-btn" href="#">button</a>
+          <a class="active-btn" href="#">active</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

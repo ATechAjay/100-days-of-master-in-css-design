@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        max-height: 90vh;
+        gap: 24px;
+      }
+      .logo img {
+        width: 100px;
+        border-radius: 50%;
+        border: 7px solid #8e2de2;
+      }
+
+      .logo,
+      .heading,
+      .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .about {
+        width: 50%;
+        margin: 0 auto;
+      }
+      .about p {
+        font-size: 22px;
+        color: floralwhite;
+      }
+      .heading h1 {
+        text-transform: capitalize;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 34px;
+        color: #fff;
+      }
+
+      .social-media {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 17px;
+      }
+
+      .social-media a {
+        display: block;
+        background: orange;
+        width: 100%;
+        text-align: center;
+        color: #000000;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 13px 0;
+        letter-spacing: 0.5px;
+        border-radius: 9px;
+        position: relative;
+        overflow: hidden;
+      }
+      .social-media a::before {
+        position: absolute;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 9px;
+      }
+      .social-media .twitter::before {
+        content: "twitter";
+        top: 0;
+        left: -100%;
+        background: #00acee;
+      }
+      .social-media .twitter:hover:before {
+        left: 0;
+      }
+      .social-media .facebook::before {
+        content: "facebook";
+        top: 0;
+        right: -100%;
+        background: #3b5998;
+      }
+      .social-media .facebook:hover:before {
+        right: 0;
+      }
+      .social-media .youtube::before {
+        content: "youtube";
+        top: -100%;
+        left: 0;
+        background: red;
+      }
+      .social-media .youtube:hover:before {
+        top: 0;
+      }
+      .social-media .linkedin::before {
+        content: "linkedin";
+        /* top: 100%; */
+        bottom: -100%;
+        left: 0;
+        background: #0077b5;
+      }
+      .social-media .linkedin:hover:before {
+        /* top:0; */
+        bottom: 0;
+      }
+      .social-media .instagram::before {
+        content: "instagram";
+        top: 0;
+        left: 0;
+        background: #8a3ab9;
+        clip-path: circle(0 at center);
+      }
+      .social-media .instagram:hover:before {
+        clip-path: circle(100% at center);
+      }
+
+      @media (max-width: 500px) {
+        section {
+          width: 90%;
+        }
+
+        .heading h1 {
+          padding: 0 20px;
+          white-space: nowrap;
+          font-size: 24px;
+        }
+        .about p {
+          font-size: 18px;
+        }
+        .about {
+          width: 100%;
+          padding: 0 20px;
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .about {
+          width: 80%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="logo">
+        <img
+          src="https://pbs.twimg.com/profile_images/1485567675111981057/mLsrcZdB_400x400.jpg"
+          alt="ATechAjay"
+        />
+      </div>
+      <div class="heading">
+        <h1>ajay yadav {ATecAjay}</h1>
+      </div>
+      <div class="about">
+        <p>
+          ⭐ Fall in love with HTML, CSS, JS ⭐ l love to make notes and videos
+          then share with my great audience!
+        </p>
+      </div>
+      <div class="social-media">
+        <a href="#" class="twitter">twitter</a>
+        <a href="#" class="facebook">facebook</a>
+        <a href="#" class="youtube">youtube</a>
+        <a href="#" class="linkedin">linkedin</a>
+        <a href="#" class="instagram">instagram</a>
+      </div>
+    </section>
+  </body>
+</html>

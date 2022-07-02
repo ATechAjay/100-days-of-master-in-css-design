@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script
+      src="https://kit.fontawesome.com/581f7d84ea.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+      }
+
+      .parent {
+        height: 630px;
+        width: 350px;
+        background: #ff922b;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        box-shadow: 0 0 50px #0000002d;
+      }
+
+      .child {
+        height: 100%;
+        width: 100%;
+        background: #ffffff;
+        position: absolute;
+        top: 30%;
+        border-top-left-radius: 70px;
+      }
+
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-top: 50px;
+      }
+
+      .input-field {
+        margin-top: 36px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+      h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 34px;
+        letter-spacing: 2px;
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      label {
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+      .input-field input {
+        background: #f1f3f5;
+        padding: 10px 0;
+        font-size: 20px;
+        letter-spacing: 1px;
+        outline: none;
+        border-radius: 12px;
+        border: none;
+        /* border-top-left-radius: 20px; */
+      }
+      button {
+        margin-top: 10px;
+        font-size: 24px;
+        text-transform: capitalize;
+        border: none;
+        padding: 10px 0;
+        border-radius: 12px;
+        /* border-top-left-radius: 20px; */
+        background: #ff922b;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+
+      button:hover {
+        background: #ffa855;
+      }
+
+      p {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      p a {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #ffa94d;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="parent">
+      <!-- <svg
+        id="logo-35"
+        width="50"
+        height="39"
+        viewBox="0 0 50 39"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z"
+          class="ccompli1"
+          fill="#007AFF"
+        ></path>
+        <path
+          d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z"
+          class="ccustom"
+          fill="#312ECB"
+        ></path>
+      </svg> -->
+      <img src="img/Ajay.jpg" alt="" />
+      <div class="child">
+        <div class="input-field">
+          <h2>login</h2>
+          <div class="input">
+            <label>email</label>
+            <input type="email" />
+          </div>
+
+          <div class="input">
+            <label>Password</label>
+            <input type="password" />
+          </div>
+
+          <button>login</button>
+          <p>I Don't have any account? <a href="#">Sign Up</a></p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

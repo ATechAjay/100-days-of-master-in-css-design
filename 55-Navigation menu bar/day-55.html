@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 55</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #8e2de2, #4a00e0);
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      ul li {
+        list-style: none;
+        text-align: center;
+        position: relative;
+        /* overflow: hidden; */
+        transition: all 0.5s;
+        border: 3px solid red;
+        transform: translateX(0px);
+      }
+      ul li:hover {
+        transform: translateX(5px);
+      }
+      ul li a {
+        font-size: 34px;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.8s;
+      }
+
+      ul li::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 500%;
+        width: 200%;
+        background: #ffffff;
+        z-index: -1;
+        transform: translate(70%, 10%) rotate(20deg);
+        transition: all 0.8s ease-in-out;
+        z-index: -5;
+        border: 3px solid red;
+      }
+
+      ul li:hover::before {
+        transform: translate(-20%, -20%) rotate(20deg);
+      }
+
+      li:hover a {
+        color: #4a00e0;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="#">home</a>
+      </li>
+      <li>
+        <a href="#">product</a>
+      </li>
+      <li>
+        <a href="#">price</a>
+      </li>
+      <li>
+        <a href="#">docs</a>
+      </li>
+      <li>
+        <a href="#">contact</a>
+      </li>
+    </ul>
+  </body>
+</html>

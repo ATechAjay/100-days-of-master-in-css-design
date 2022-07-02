@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/581f7d84ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>day 23</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+
+      ul {
+        display: flex;
+        gap: 12px;
+      }
+
+      i {
+        transition: all 0.5s;
+      }
+
+      li {
+        list-style: none;
+        padding: 12px 24px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        /* background: pink; */
+      }
+
+      span {
+        background: dodgerblue;
+        padding: 5px 10px;
+        border-radius: 100px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.5s;
+        opacity: 0;
+        font-weight: bold;
+      }
+
+      li:hover span {
+        transform: translateY(-50%);
+        opacity: 1;
+      }
+
+      .fas,
+      .fab {
+        font-size: 44px;
+        color: #1e90ff;
+      }
+      li:hover i {
+        transform: translateY(-25px);
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><i class="fas fa-home"></i><span>home</span></li>
+      <li><i class="fas fa-phone-alt"></i><span>contact</span></li>
+      <li><i class="fas fa-heart"></i><span>service</span></li>
+      <li><i class="fas fa-video"></i><span>video</span></li>
+      <li><i class="fab fa-blogger"></i><span>blog</span></li>
+    </ul>
+  </body>
+</html>
