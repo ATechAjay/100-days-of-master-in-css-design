@@ -4,7 +4,7 @@
 
 ![3_1460912645389754371](https://pbs.twimg.com/media/FEY0T4xVIAMM7u8.jpg)
 
-2️⃣ / 1️⃣0️⃣0️⃣ Bouncing balls
+2️⃣ / 1️⃣0️⃣0️⃣ [Bouncing balls](02-Bouncil-balls/)
 
 3️⃣ / 1️⃣0️⃣0️⃣ Testimonial box with a carousel using neumorphism design.
 
