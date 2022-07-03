@@ -1,99 +1,185 @@
 ---
 author: "Ajay Yadav 🎯"
 handle: "@ATechAjay"
-source: "https://twitter.com/ATechAjay/status/1485128796483514370"
-date: "January 23, 2022 9:54 AM"
+source: "https://twitter.com/ATechAjay/status/1485523443194146818"
+date: "January 24, 2022 12:02 PM"
 likes: 17
-retweets: 12
-replies: 1
+retweets: 2
+replies: 8
 ---
 ![ATechAjay](https://pbs.twimg.com/profile_images/1485567675111981057/mLsrcZdB_normal.jpg)
-Ajay Yadav 🎯 ([@ATechAjay](https://twitter.com/ATechAjay)) - January 23, 2022 9:54 AM
+Ajay Yadav 🎯 ([@ATechAjay](https://twitter.com/ATechAjay)) - January 24, 2022 12:02 PM
 
-💚 Day 6️⃣6️⃣ / 1️⃣0️⃣0️⃣ Master in CSS Design series!
+💚 Day 6️⃣7️⃣ / 1️⃣0️⃣0️⃣ Master in CSS Design series!
 
-💥 Today we are going to design a smooth drop-down navigation bar.
+💥 Today we are going to learn CSS selectors.
 
-⛔Without using float & display to none.
+→ Selectors are one of the tricky concepts in CSS.
 
-❓What's the main logic behind it with the codepen link?
+→ There are many ways to select an HTML element in CSS, using a CSS selector.
 
-[#100DaysOfCode](https://twitter.com/hashtag/100DaysOfCode)  
-[#CodeNewbie](https://twitter.com/hashtag/CodeNewbie)  [#webdev](https://twitter.com/hashtag/webdev) 
+📌 The BEST thread!
 
-Let me explain!🧵👇 [pic.twitter.com/RWFO7mtz9F](https://twitter.com/ATechAjay/status/1485128796483514370/video/1)
+[#webdev](https://twitter.com/hashtag/webdev) 
 
-↦ First of all, we have to add our HTML code for the navigation bar. [pic.twitter.com/LNJ1qRVcsz](https://twitter.com/ATechAjay/status/1485128805484490753/photo/1)
+Let me explain!🧵👇 [pic.twitter.com/rTKyK5fn15](https://twitter.com/ATechAjay/status/1485523443194146818/photo/1)
 
-![3_1485121009003134977](https://pbs.twimg.com/media/FJw1sG4aAAE3U0z.jpg)
+![3_1485487949857067009](https://pbs.twimg.com/media/FJ2Da4FakAEFYS_.jpg)
 
-↦ Then for the dropdown menu, we have to add this ul element inside the 2nd li element.
+⁉ Why should we learn CSS selectors in our design series?
 
-or inside the "drop" class! [pic.twitter.com/WZ1Mht7P27](https://twitter.com/ATechAjay/status/1485128817484382211/photo/1)
+🤔 I think,
 
-![3_1485121104893341698](https://pbs.twimg.com/media/FJw1xsGacAIB5Wg.jpg)
+- If you want to become a good CSS developer, you must have to know CSS selectors.
 
-↦ As I said, we have to add this ul element inside the 2nd li element for the dropdown menu. [pic.twitter.com/jDjE3DQ07X](https://twitter.com/ATechAjay/status/1485128826531508225/photo/1)
+- CSS selectors are many types, so you can be stuck during writing CSS code.
 
-![3_1485121211214737408](https://pbs.twimg.com/media/FJw134LaMAAu58a.jpg)
+👀 I have one question for you!
 
-↦ After adding all, the HTML code it looks like this. [pic.twitter.com/YOOdabpnMD](https://twitter.com/ATechAjay/status/1485128835243069444/photo/1)
+🤔 What is the difference between the Descendent selector and child selectors?
 
-![3_1485121506317598721](https://pbs.twimg.com/media/FJw2JDhagAEAbD4.jpg)
+📌 Notation
+Descendent selector = {space}
+child selectors = {>}
 
-↦ Now we have to design our nav bar as we want and it aligns using flexbox. [pic.twitter.com/xolyXWmIZY](https://twitter.com/ATechAjay/status/1485128846940995587/photo/1)
+🤔 What are CSS selectors or what is the use of the CSS selectors?
 
-![3_1485122497779740673](https://pbs.twimg.com/media/FJw3CxAaMAEbtDo.jpg)
+→ CSS selector is used to select an HTML element, which we design that HTML element.
 
-↦ Then, we have to design our list items inside the ul element. [pic.twitter.com/bl0G1EbOgR](https://twitter.com/ATechAjay/status/1485128854201303043/photo/1)
+👉 CSS selectors are several types, we can divide them into 5 categories for our convenience.
 
-![3_1485122528872124419](https://pbs.twimg.com/media/FJw3Ek1aUAMXNGL.jpg)
+1️⃣ Combinator(Combination) Selector
+2️⃣ Simple Selector
+3️⃣ Pseudo element Selector(::)
+4️⃣ Pseudo class Selector(:)
+5️⃣ Attribute Selector
 
-↦ Then we have to add a class in which do you want to add a dropdown.
+But in this thread, we are going to learn, 
 
-↦ And set position to relative inside the container of the drop-down menu.
+1️⃣ Combinator(Combination) Selector and its type.
 
-↦ Because we to positioned our drop-down menu relative to its container.
+⛔ Other selectors are going to learn in the next thread.
 
-📌 Learn position from here
+Let's start...
 
-👇
+1️⃣ Combinator(Combination) Selector
 
-[twitter.com/ATechAjay/stat…](https://twitter.com/ATechAjay/status/1478256268309450753) [pic.twitter.com/PL30PF2Uit](https://twitter.com/ATechAjay/status/1485128862011105284/photo/1)
+🤔So, what is a combinator selector?
 
-![3_1485122575487598596](https://pbs.twimg.com/media/FJw3HSfaAAQzPsv.png)
+→ They combine other selectors in order to select HTML elements.
 
-> ![ATechAjay](https://pbs.twimg.com/profile_images/1485567675111981057/mLsrcZdB_normal.jpg)
-> Ajay Yadav 🎯 ([@ATechAjay](https://twitter.com/ATechAjay)) - January 4, 2022 10:45 AM
-> 
-> 
-> 💚This is one of the best threads on CSS Position.
-> 
-> → These words are more confusing for beginners developers.
-> 
-> → After reaching the end of this thread you will have enough confidence about a "relative" or "absolute" position.
-> 
-> [#100DaysOfCode](https://twitter.com/hashtag/100DaysOfCode)  
-> [#CodeNewbie](https://twitter.com/hashtag/CodeNewbie)  
-> 
-> Let me explain!🧵↓ [pic.twitter.com/vEYxbLCJ80](https://twitter.com/ATechAjay/status/1478256268309450753/photo/1)
-> 
-![3_1478235445511081986](https://pbs.twimg.com/media/FIO_TkAUUAIfsyo.jpg)
+→ Or, these selectors are made up of two or more selectors.
 
-↦ Now, our Drop-down menu will be hidden by default.
+→ Or, Combine means a 𝗺𝗶𝘅 of 2 or more selectors.
 
-↦ so, we can use the opacity and visibility properties.
+hope you got my point
 
-↦ Also, we can add a transition for smoothness. [pic.twitter.com/7Yc1YEQqm9](https://twitter.com/ATechAjay/status/1485128870089334787/photo/1)
+👉 Combinator selectors further can be divided into 4 parts.
 
-![3_1485122609616687105](https://pbs.twimg.com/media/FJw3JRoakAE2bqv.jpg)
+𝟭. Descendant combinator selector("space")
 
-↦ Now, when we hover over the 2nd list item, then we want to show that hidden element. [pic.twitter.com/8hliF563J4](https://twitter.com/ATechAjay/status/1485128877014159362/photo/1)
+𝟮. Child combinator selector(>)
 
-![3_1485122647172456452](https://pbs.twimg.com/media/FJw3LdiaIAQK88o.png)
+𝟯. Adjacent sibling combinator selector(+)
 
-👉 codepen link:
+𝟰. General sibling combinator selector(~)
 
-[codepen.io/atechajay/pen/…](https://codepen.io/atechajay/pen/WNZVKGO)
+𝟭. Descendant combinator selector("space")
 
-[Thread link](https://twitter.com/ATechAjay/status/1485128796483514370)
+→ It selects each and every HTML element of a defined or specified element.
+
+→ Or, it selects all HTML elements, which is the descendant of a defined element.
+
+→ Or, Descendant means "𝘀𝗲𝗲𝗱" or "𝗰𝗵𝗶𝗹𝗱" of the parent.
+
+→ Here you can see, all p elements inside the div element have been selected. [pic.twitter.com/KXPhcFdvnY](https://twitter.com/ATechAjay/status/1485523475607736321/photo/1)
+
+![3_1485502344582561792](https://pbs.twimg.com/media/FJ2QgwnagAAoTxx.jpg)
+
+![3_1485502536983650306](https://pbs.twimg.com/media/FJ2Qr9XaIAIxSrN.jpg)
+
+👉 Codepen link of Descendant combinator selector("space")
+
+[codepen.io/atechajay/pen/…](https://codepen.io/atechajay/pen/GROKjKW?editors=1100)
+
+𝟮. Child combinator selector(>):
+
+→ It is used to select the "direct child" element of the specified element.
+
+→ Or, It selects only direct children, not indirect.
+
+→ Or, not grand chid or great grande child.
+
+see here!
+
+→ Selects all p elements inside the div element.
+
+→ Selects all p elements inside the section element. [pic.twitter.com/sVkHYDl8wX](https://twitter.com/ATechAjay/status/1485523488765263873/photo/1)
+
+![3_1485508557084987394](https://pbs.twimg.com/media/FJ2WKX_akAIq_yn.jpg)
+
+![3_1485508649925890051](https://pbs.twimg.com/media/FJ2WPx2aUAMegVJ.jpg)
+
+👉 Codepen link of Child combinator selector(>)
+
+[codepen.io/atechajay/pen/…](https://codepen.io/atechajay/pen/bGYbwEv)
+
+👉 Now, What is the difference between descendant and child selector?
+
+📌 Descendant selector:
+
+→ Selects all HTML element, either direct child, grandchild, great-grandchild.
+
+→ Or, Select nested elements.
+
+→ Or, selects direct and indirect elements of the specified element.
+
+📌 Child selector(>)
+
+→ It selects on a direct child element.
+
+→ Suppose you are a father and have a son, Here, a son is your direct child of yours.
+
+⛔ but, It does not select your daughter's son, because your daughter's son is not a direct child of yours.😍
+
+Hope...my point
+
+𝟯. Adjacent sibling combinator selector(+):
+
+→ It selects the "next" element of the specified element.
+
+→ Or, Selects "Very close" element of the defined selector, which is the first one.
+
+→ Or, it selects only one element.
+
+→ Or, it selects only the first element.
+
+→ You can see here, it selects only the nearest / first element of the "div" element. [pic.twitter.com/PPtWeP7Ac3](https://twitter.com/ATechAjay/status/1485526884125659138/photo/1)
+
+![3_1485526170779385857](https://pbs.twimg.com/media/FJ2mLoHaAAEepBh.jpg)
+
+![3_1485526238651625473](https://pbs.twimg.com/media/FJ2mPk9aMAEryjP.jpg)
+
+👉 codepen link of Adjacent sibling combinator selector(+):
+
+[codepen.io/atechajay/pen/…](https://codepen.io/atechajay/pen/JjOPROX)
+
+𝟰. General sibling combinator selector(~):
+
+→ It selects all elements "next" to the specified element.
+
+→ Or, opposite to the adjacent selector.
+
+→ Very simple, its selects all HTML elements of the defined element.
+
+→ You can see here that all elements have been selected, which are nearest to the specified element. [pic.twitter.com/5fjYm8x0uR](https://twitter.com/ATechAjay/status/1485526897685856259/photo/1)
+
+![3_1485526467270574081](https://pbs.twimg.com/media/FJ2mc4oagAEx1PA.jpg)
+
+![3_1485526538259144706](https://pbs.twimg.com/media/FJ2mhBFaIAIb2v5.jpg)
+
+👉 codepen link of General sibling combinator selector(~)
+
+[codepen.io/atechajay/pen/…](https://codepen.io/atechajay/pen/yLPBaxm)
+
+[Thread link](https://twitter.com/ATechAjay/status/1485523443194146818)

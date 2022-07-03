@@ -34,7 +34,7 @@
 
 1.  [Text or any object like neon or glowing design.](17-Text%20or%20any%20object%20like%20neon%20or%20glowing%20design)
 
-1. [hero" section of the website](18-hero%20section%20of%20the%20website%20with%20a%20clip-path)
+1. [Hero section of the website](18-hero%20section%20of%20the%20website%20with%20a%20clip-path)
 
 1.  [Design a button with hover effects](19-Design%20a%20button%20with%20hover%20effects)
 
@@ -42,13 +42,13 @@
 
 1.  [Card with an awesome hoverable effect](21-Card%20with%20an%20awesome%20effect)
 
-1.  [navBar with a hoverable effect](22-navBar%20with%20a%20hoverable%20effect)
+1.  [NavBar with a hoverable effect](22-navBar%20with%20a%20hoverable%20effect)
 
-1.  [navBar with a hoverable effect](22-navBar%20with%20a%20hoverable%20effect)
+1.  [NavBar with a hoverable effect](23-NavBar%20with%20a%20hoverable%20effect)
 
-1.  ["Button" with an awesome hoverable effect](24-button%20with%20an%20awesome%20hoverable%20effect)
+1.  [Button with an awesome hoverable effect](24-button%20with%20an%20awesome%20hoverable%20effect)
 
-1.  [footer section with these awesome typing and hover effects](25-Footer%20section%20with%20these%20awesome%20typing%20and%20hover%20effects)
+1.  [Footer section with these awesome typing and hover effects](25-Footer%20section%20with%20these%20awesome%20typing%20and%20hover%20effects)
 
 1.  [Text typing animation](26-Text%20typing%20animation)
 
@@ -56,7 +56,7 @@
 
 1.  [Buttons or nav links with these awesome](28-Buttons%20or%20nav%20links%20with%20these%20awesome%20animation%20effects)
 
-1.  [button with an awesome hover effect](29-Button%20with%20an%20awesome%20hover%20effect)
+1.  [Button with an awesome hover effect](29-Button%20with%20an%20awesome%20hover%20effect)
 
 1.  [Button/Navigation with an awesome hover effect](30-Button%20with%20an%20awesome%20hover%20effect)
 
@@ -64,7 +64,7 @@
 
 1.  [Hoverable card](32-Hoverable%20card)
 
-1.  [hoverable card (similar to day 32)](33-Hoverable%20card)
+1.  [Hoverable card (similar to day 32)](33-Hoverable%20card)
 
 1.  [Hoverable button using a clip-path](34-Hover%20button%20with%20a%20clip-path)
 
@@ -72,7 +72,7 @@
 
 1.  [Hoverable box](36-hoverable%20box)
 
-1. [simple web page Coming Soon with these cool neon effects](37-simple%20web%20page%20Coming%20Soon%20with%20these%20cool%20neon%20effects)
+1. [Simple web page Coming Soon with these cool neon effects](37-simple%20web%20page%20Coming%20Soon%20with%20these%20cool%20neon%20effects)
 
 1.  [Animated text](38-Animated%20text)
 
@@ -94,7 +94,7 @@
 
 1.  [Login form](47-Login%20Form)
 
-1.  [Login form (bis)](48-Login%20Form)
+1.  [Login form](48-Login%20Form)
 
 1.  [Instagram logo](49-Instagram%20logo)
 
@@ -104,7 +104,7 @@
 
 1.  [Background of images using border-radius](52-Background%20of%20images%20using%20border-radius)
 
-1. [ Call to action(CTA) with this awesome animation](53-Call%20to%20action%20with%20animation)
+1. [Call to action(CTA) with this awesome animation](53-Call%20to%20action%20with%20animation)
 
 1.  [Text with this an awesome animation](54-Text%20with%20this%20an%20awesome%20animation)
 
@@ -201,3 +201,15 @@
 
 1.  [Host our website on @Netlify](100-Host%20our%20website%20on%20Netlify)
 
+---
+![ATechAjay](https://pbs.twimg.com/profile_images/1485567675111981057/mLsrcZdB_normal.jpg)
+
+
+Ajay Yadav 🎯 ([@ATechAjay](https://twitter.com/ATechAjay))
+If you like this make sure to:
+
+1. Follow me [@ATechAjay](https://twitter.com/ATechAjay)
+
+1. Turn on the notification on Twitter to never miss these amazing tweets.
+
+Thank you so much for staying to the end of this project.
