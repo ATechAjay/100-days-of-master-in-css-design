@@ -1,204 +1,203 @@
 # 💚 100 days of Master in CSS Design series
 
-1️⃣ / 1️⃣0️⃣0️⃣ [Accordion](01-Accordion/day-01.html)
+1.  [Accordion](01-Accordion/day-01.html)
 
-![3_1460912645389754371](https://pbs.twimg.com/media/FEY0T4xVIAMM7u8.jpg)
+1.  [Bouncing balls](02-Bouncing%20balls/)
 
-2️⃣ / 1️⃣0️⃣0️⃣ [Bouncing balls](02-Bouncing-balls/)
+1.  [Testimonial box with a carousel using neumorphism design](03-Testimonial%20box/)
 
-3️⃣ / 1️⃣0️⃣0️⃣ Testimonial box with a carousel using neumorphism design.
+1.  [Text with animation](04-Text%20with%20animation)
 
-4️⃣ / 1️⃣0️⃣0️⃣ Text with animation
+1.  [Slider images animation](05-Slider%20images%20animation)
 
-5️⃣ / 1️⃣0️⃣0️⃣ Slider images animation
+1.  [Navbar using neumorphism design](06-Navbar%20using%20neumorphism%20design)
 
-6️⃣ / 1️⃣0️⃣0️⃣ Navbar using neumorphism design
+1.  [Navbar with an awesome animation](07-Navbar%20with%20an%20awesome%20animation)
 
-7️⃣ / 1️⃣0️⃣0️⃣ Navbar with an awesome animation
+1.  [Card with hover effect](08-Card%20with%20hover%20effect)
 
-8️⃣ / 1️⃣0️⃣0️⃣ Card with hover effect
+1.  [Button with a move up/down and hover effect](09-Button%20with%20a%20move%20updown%20and%20hover%20effect)
 
-9️⃣ / 1️⃣0️⃣0️⃣ Button with a move up/down and hover effect
+1.  [Button with an awesome neon effect with hover](10-Button%20with%20this%20awesome%20neon%20hover%20effect)
 
-🔟 / 1️⃣0️⃣0️⃣ Button with an awesome neon effect with hover.
+1.  [Button with an awesome hover effect with gradient](11-Button%20with%20a%20gradient%20hover%20effect)
 
-1️⃣1️⃣ /  1️⃣ 0️⃣0️⃣ Button with an awesome hover effect with gradient.
+1.  [Button with an awesome effect](12-Button%20with%20awesome%20hover)
 
-1️⃣2️⃣ /  1️⃣ 0️⃣0️⃣ Button with an awesome effect
+1.  [Awesome hover using clip-path property](13-Awesome%20hover%20using%20clip-path%20property)
 
-1️⃣3️⃣ /  1️⃣ 0️⃣0️⃣ Awesome hover using clip-path property
+1. [Preloader but it also looks like the Microsoft logo](14-Preloader%20like%20Microsoft%20logo)
 
-1️⃣4️⃣ /  1️⃣ 0️⃣0️⃣ Preloader but it also looks like the Microsoft logo.
+ 1.  [Calculator layout(GRID) with neumorphism](15-calculator%20layout(GRID)%20with%20neumorphism)
 
- 1️⃣5️⃣ /  1️⃣ 0️⃣0️⃣ Calculator layout(GRID) with neumorphism
+1.  [Text like a spark with animation](16-Text%20like%20a%20spark%20with%20animation)
 
-1️⃣6️⃣ /  1️⃣ 0️⃣0️⃣ Text like a spark with animation
+1.  [Text or any object like neon or glowing design.](17-Text%20or%20any%20object%20like%20neon%20or%20glowing%20design)
 
-1️⃣7️⃣ /  1️⃣ 0️⃣0️⃣ Text or any object like neon or glowing design.
+1. [hero" section of the website](18-hero%20section%20of%20the%20website%20with%20a%20clip-path)
 
-1️⃣9️⃣ /  1️⃣ 0️⃣0️⃣ Design a button with hover effects
+1.  [Design a button with hover effects](19-Design%20a%20button%20with%20hover%20effects)
 
-2️⃣0️⃣ /  1️⃣ 0️⃣0️⃣ Card with an awemsome hover effect
+1.  [Card with an awesome hover effect](20-Card%20with%20an%20awesome%20hoverable%20effect)
 
-2️⃣1️⃣ /  1️⃣ 0️⃣0️⃣ Card(?) with an awesome hoverable effect.
+1.  [Card with an awesome hoverable effect](21-Card%20with%20an%20awesome%20effect)
 
-2️⃣2️⃣ /  1️⃣ 0️⃣0️⃣ navBar with a hoverable effect
+1.  [navBar with a hoverable effect](22-navBar%20with%20a%20hoverable%20effect)
 
-2️⃣3️⃣ /  1️⃣ 0️⃣0️⃣ navBar with a hoverable effect
-![3_1468892017636016132](https://pbs.twimg.com/media/FGKNgeyaAAQtvFO.jpg)
+1.  [navBar with a hoverable effect](22-navBar%20with%20a%20hoverable%20effect)
 
-2️⃣4️⃣ /  1️⃣ 0️⃣0️⃣ "Button" with an awesome hoverable effect
+1.  ["Button" with an awesome hoverable effect](24-button%20with%20an%20awesome%20hoverable%20effect)
 
-2️⃣5️⃣ /  1️⃣ 0️⃣0️⃣ footer section with these awesome typing and hover effects
+1.  [footer section with these awesome typing and hover effects](25-Footer%20section%20with%20these%20awesome%20typing%20and%20hover%20effects)
 
-2️⃣6️⃣ /  1️⃣ 0️⃣0️⃣ Text typing animation
+1.  [Text typing animation](26-Text%20typing%20animation)
 
-2️⃣7️⃣ /  1️⃣ 0️⃣0️⃣ Tooltip when we hover on the icon.
+1.  [Tooltip when we hover on the icon](27-Tooltip%20when%20we%20hover%20on%20the%20icon)
 
-2️⃣8️⃣ /  1️⃣ 0️⃣0️⃣ Buttons or nav links with these awesome
+1.  [Buttons or nav links with these awesome](28-Buttons%20or%20nav%20links%20with%20these%20awesome%20animation%20effects)
 
-2️⃣9️⃣ /  1️⃣ 0️⃣0️⃣ button with an awesome hover effect
+1.  [button with an awesome hover effect](29-Button%20with%20an%20awesome%20hover%20effect)
 
-2️⃣9️⃣ /  1️⃣ 0️⃣0️⃣ Button/Navigation with an awesome hover effect
+1.  [Button/Navigation with an awesome hover effect](30-Button%20with%20an%20awesome%20hover%20effect)
 
-3️⃣0️⃣ /  1️⃣ 0️⃣0️⃣ Button with an awesome hover effect
+1.  [Button with an awesome hover effect](31-Button%20with%20an%20awesome%20hover%20effect)
 
-3️⃣1️⃣ /  1️⃣ 0️⃣0️⃣ Hoverable card
+1.  [Hoverable card](32-Hoverable%20card)
 
-3️⃣2️⃣ /  1️⃣ 0️⃣0️⃣ hoverable card (similar to day 31)
+1.  [hoverable card (similar to day 32)](33-Hoverable%20card)
 
-3️⃣ 3️⃣ / 1️⃣ 0️⃣0️⃣ Hoverable card
+1.  [Hoverable button using a clip-path](34-Hover%20button%20with%20a%20clip-path)
 
-3️⃣4️⃣ /  1️⃣ 0️⃣0️⃣ Hoverable button using a clip-path
+1.  [Hoverable button with animation](35-%20hoverable%20button%20with%20animation)
 
-3️⃣5️⃣ /  1️⃣ 0️⃣0️⃣ Hoverable button with animation.
+1.  [Hoverable box](36-hoverable%20box)
 
-3️⃣6️⃣ /  1️⃣ 0️⃣0️⃣ Hoverable box
+1. [simple web page Coming Soon with these cool neon effects](37-simple%20web%20page%20Coming%20Soon%20with%20these%20cool%20neon%20effects)
 
-3️⃣8️⃣ /  1️⃣ 0️⃣0️⃣ Animated text
+1.  [Animated text](38-Animated%20text)
 
-3️⃣9️⃣ /  1️⃣ 0️⃣0️⃣ Project section with responsive using GRID
+1.  [Project section with responsive using GRID](39-project%20section%20with%20responsive%20using%20GRID)
 
-4️⃣0️⃣ /  1️⃣ 0️⃣0️⃣ Input field with an awesome focus effect
+1.  [Input field with an awesome focus effect](40-Input%20field%20with%20an%20awesome%20focus%20effect)
 
-4️⃣1️⃣ /  1️⃣ 0️⃣0️⃣ Preloader similar to LinkedIn
+1.  [Preloader similar to LinkedIn](41-Preloader%20similar%20to%20Linkedin)
 
-💚Day 4️⃣2️⃣ /  1️⃣ 0️⃣0️⃣ Awesome border of any object
+1.  [Awesome border of any object](42-Awesome%20border%20of%20any%20object)
 
-💚Day 4️⃣3️⃣ /  1️⃣ 0️⃣0️⃣ Awesome border of an image
+1.  [Awesome border of an image](43-Awesome%20border%20of%20an%20image)
 
-💚 Day 4️⃣4️⃣/  1️⃣0️⃣0️⃣ SignUp form with glassmorphism design
+1. [SignUp form with glassmorphism design](44-SignUp%20form%20with%20glassmorphism%20design)
 
-💚 Day 4️⃣5️⃣ /  1️⃣0️⃣0️⃣ Grid layouts
+1.  [Grid layouts](45-Grid%20layouts)
 
-💚 Day 4️⃣6️⃣ /  1️⃣0️⃣0️⃣ Social icons with these awesome hover effects.
+1.  [Social icons with these awesome hover effects](46-Social%20icons%20with%20these%20awesome%20hover%20effects)
 
-💚 Day 4️⃣8️⃣ / 1️⃣0️⃣0️⃣ Login form
+1.  [Login form](47-Login%20Form)
 
-💚 Day 4️⃣8️⃣ / 1️⃣0️⃣0️⃣ Login form (bis)
+1.  [Login form (bis)](48-Login%20Form)
 
-💚 Day 4️⃣9️⃣ / 1️⃣0️⃣0️⃣ Instagram logo
+1.  [Instagram logo](49-Instagram%20logo)
 
-💚 Day 5️⃣0️⃣ / 1️⃣0️⃣0️⃣ Rotating card
+1.  [Rotating card](50-Rotating%20card)
 
-💚 Day 5️⃣1️⃣ / 1️⃣0️⃣0️⃣ Button with clip-path
+1.  [Button with clip-path](51-Button%20with%20clip-path)
 
-💚 Day 5️⃣2️⃣ / 1️⃣0️⃣0️⃣ Background of images using border-radius
+1.  [Background of images using border-radius](52-Background%20of%20images%20using%20border-radius)
 
-💚 Day 5️⃣3️⃣ / 1️⃣0️⃣0️⃣ Call to action(CTA) with this awesome animation.
+1. [ Call to action(CTA) with this awesome animation](53-Call%20to%20action%20with%20animation)
 
-💚 Day 5️⃣4️⃣ / 1️⃣0️⃣0️⃣ Text with this an awesome animation
+1.  [Text with this an awesome animation](54-Text%20with%20this%20an%20awesome%20animation)
 
-💚 Day 5️⃣5️⃣ / 1️⃣0️⃣0️⃣ Navigation menu bar
+1.  [Navigation menu bar](55-Navigation%20menu%20bar)
 
-💚 Day 5️⃣6️⃣ / 1️⃣0️⃣0️⃣ Button using a clip-path
+1.  [Button using a clip-path](56-Button%20using%20a%20clip-path)
 
-💚 Day 5️⃣7️⃣ / 1️⃣0️⃣0️⃣ Responsive navigation link using media queries
+1.  [Responsive navigation link using media queries](57-Responsive%20navigation%20link%20using%20media%20queries)
 
-💚 Day 5️⃣8️⃣ / 1️⃣0️⃣0️⃣ Hamburger button using media queries
+1.  [Hamburger button using media queries](58-Hamburger%20button%20using%20media%20queries)
 
-💚 Day 5️⃣9️⃣ / 1️⃣0️⃣0️⃣ Text with this awesome foreground animation
+1.  [Text with this awesome foreground animation](59-Text%20with%20this%20awesome%20foreground%20animation)
 
-💚 Day 6️⃣0️⃣ / 1️⃣0️⃣0️⃣ Preloader of the website
+1.  [Preloader of the website](60-Preloader%20of%20the%20website)
 
 
-💚 Day 6️⃣1️⃣ / 1️⃣0️⃣0️⃣ Preloader of the website
+1.  [Preloader of the website](61-Preloader%20of%20the%20website)
 
-💚 Day 6️⃣2️⃣ / 1️⃣0️⃣0️⃣ Icon with hover effect as well as animation
+1.  [Icon with hover effect as well as animation](62-Icon%20with%20hover%20effect%20as%20well%20as%20animation)
 
-💚 Day 6️⃣3️⃣ / 1️⃣0️⃣0️⃣ An awesome card
+1.  [An awesome card](63-An%20awesome%20card)
 
-💚 Day 6️⃣4️⃣ / 1️⃣0️⃣0️⃣ Pre-loader of the website
+1.  [Pre-loader of the website](64-Pre-loader%20of%20the%20website)
 
-💚 Day 6️⃣5️⃣ / 1️⃣0️⃣0️⃣ Hamburger button
+1. [Hamburger button](65-Hamburger%20button)
 
-💚 Day 6️⃣6️⃣ / 1️⃣0️⃣0️⃣ Smooth drop-down navigation bar
+1.  [Smooth drop-down navigation bar](66-Smooth%20drop-down%20navigation%20bar)
 
-💚 Day 6️⃣6️⃣ / 1️⃣0️⃣0️⃣ Smooth drop-down navigation bar
+1.  [Smooth drop-down navigation bar](67-Smooth%20drop-down%20navigation%20bar)
 
-💚 Day 6️⃣7️⃣ / 1️⃣0️⃣0️⃣ Learn CSS selectors
+1.  [Learn CSS selectors](68-Learn%20CSS%20selectors)
 
-💚 Day 6️⃣9️⃣ / 1️⃣0️⃣0️⃣ Simple website with an awesome hover effect
+1.  [Simple website with an awesome hover effect](69-Simple%20website%20with%20an%20awesome%20hover%20effect)
 
-💚 Day 7️⃣0️⃣ / 1️⃣0️⃣0️⃣ Indian flag on the occasion of republic day
+1.  [Indian flag on the occasion of republic day](70-Indian%20flag)
 
-💚 Day 7️⃣1️⃣ / 1️⃣0️⃣0️⃣ An awesome card with hover
+1.  [An awesome card with hover](71-An%20awesome%20card%20with%20hover)
 
-💚 Day 7️⃣2️⃣ / 1️⃣0️⃣0️⃣ Some cosmetic designs using before and after pseudo-element
+1.  [Some cosmetic designs using before and after pseudo-element](72-cosmetic%20designs%20using%20before%20and%20after%20pseudo-element)
 
-💚 Day 7️⃣3️⃣ / 1️⃣0️⃣0️⃣ Wavy effect using clip-path
+1.  [Wavy effect using clip-path](73-Wavy%20effect%20using%20clip-path)
 
-💚 Day 7️⃣4️⃣ / 1️⃣0️⃣0️⃣ Picture hoverable effect
+1.  [Picture hoverable effect](74-Picture%20hoverable%20effect)
 
-💚 Day 7️⃣5️⃣ / 1️⃣0️⃣0️⃣ Hero section of a website
+1.  [Hero section of a website](75-Hero%20section%20of%20a%20website)
 
-💚 Day 7️⃣6️⃣ / 1️⃣0️⃣0️⃣ Animated user section.
+1.  [Animated user section](76-Animated%20user%20section)
 
-💚 Day 7️⃣7️⃣ / 1️⃣0️⃣0️⃣ Music player with neumorphism
+1.  [Music player with neumorphism](77-Music%20player%20with%20neumorphism)
 
-💚 Day 7️⃣8️⃣ / 1️⃣0️⃣0️⃣ Rounded navigation bar
+1.  [Rounded navigation bar](78-Rounded%20navigation%20bar)
 
-💚 Day 7️⃣9️⃣ / 1️⃣0️⃣0️⃣ Phone call with awesome wavy animation
+1.  [Phone call with awesome wavy animation](79-Phone%20call%20with%20awesome%20wavy%20animation)
 
-💚 Day 8️⃣0️⃣ / 1️⃣0️⃣0️⃣ Users section of the website
+1.  [Users section of the website](80-User%20section%20of%20the%20website)
 
-💚 Day 8️⃣1️⃣ / 1️⃣0️⃣0️⃣ A small project for a "check triangle"
+1.  [A small project for a "check triangle"](81-A%20small%20project%20for%20a%20check%20triangle)
 
-💚 Day 8️⃣2️⃣ / 1️⃣0️⃣0️⃣ Text splitting when we hover over it
+1.  [Text splitting when we hover over it](82-Text%20splitting%20when%20we%20hover%20over%20it)
 
-💚 Day 8️⃣3️⃣ / 1️⃣0️⃣0️⃣ How to center an element using the "line-height" property
+1. [ How to center an element using the "line-height" property](83-How%20to%20center%20an%20element%20using%20the%20line-height%20property)
 
-💚 Day 8️⃣4️⃣ / 1️⃣0️⃣0️⃣ Build a hero section
+1.  [Build a hero section](84-Build%20a%20hero%20section)
 
-💚 Day 8️⃣5️⃣ / 1️⃣0️⃣0️⃣ Build a hero section
+1.  [Build a hero section](85-Build%20a%20hero%20section)
 
-💚Day 8️⃣6️⃣ / 1️⃣0️⃣0️⃣ Build a hero section.
+1.  [Build a hero section](86-Build%20a%20hero%20section)
 
-💚 Day 8️⃣7️⃣ / 1️⃣0️⃣0️⃣ Build a hero section
+1.  [Build a hero section](87-Build%20a%20hero%20section)
 
-💚 Day 8️⃣8️⃣ / 1️⃣0️⃣0️⃣ Learn about media queries!
+1.  [Learn about media queries!](88-Learn%20about%20media%20queries)
 
-💚 Day 8️⃣9️⃣ / 1️⃣0️⃣0️⃣ A small section of the project
+1.  [A small section of the project](89-A%20small%20section%20of%20the%20project)
 
-💚 Day 9️⃣0️⃣ / 1️⃣0️⃣0️⃣ A heart shape with animation
+1.  [A heart shape with animation](90-A%20heart%20shape%20with%20animation)
 
-💚 Day 9️⃣1️⃣ / 1️⃣0️⃣0️⃣ Make responsive of our HERO section
+1.  [Make responsive of our HERO section](91-Make%20responsive%20of%20our%20HERO%20section)
 
-💚 Day 9️⃣2️⃣ / 1️⃣0️⃣0️⃣ What are rem and em units?
+1.  [What are rem and em units](92-What%20are%20rem%20and%20em%20units)
 
-💚 Day 9️⃣3️⃣ / 1️⃣0️⃣0️⃣ Responsiveness of our HERO section
+1.  [Responsiveness of our HERO section](93-Responsiveness%20of%20our%20HERO%20section)
 
-💚 Day 9️⃣4️⃣ / 1️⃣0️⃣0️⃣ The hamburger button in our existing HERO section
+1.  [The hamburger button in our existing HERO section](94-The%20hamburger%20button%20in%20our%20existing%20HERO%20section)
 
-💚 Day 9️⃣5️⃣ / 1️⃣0️⃣0️⃣ Responsiveness of the HERO section
+1.  [Responsiveness of the HERO section](95-Responsiveness%20of%20the%20HERO%20section)
 
-💚 Day 9️⃣6️⃣ / 1️⃣0️⃣0️⃣ Fully responsive of our HERO section
+1.  [Fully responsive of our HERO section](96-Fully%20responsive%20of%20our%20HERO%20section)
 
-💚 Day 9️⃣7️⃣ / 1️⃣0️⃣0️⃣ Project section with responsiveness
+1.  [Project section with responsiveness](97-Project%20section%20with%20responsiveness)
 
-💚 Day 9️⃣8️⃣ / 1️⃣0️⃣0️⃣ Design the scrollbar of the website
+1.  [Design the scrollbar of the website](98-Design%20the%20scrollbar%20of%20the%20website)
 
-💚 Day 9️⃣9️⃣ / 1️⃣0️⃣0️⃣ Design a footer section
+1.  [Design a footer section](99-Design%20a%20footer%20section)
 
-💚 Day 1️⃣0️⃣0️⃣ / 1️⃣0️⃣0️⃣ Host our website on [@Netlify](https://twitter.com/Netlify)
+1.  [Host our website on @Netlify](100-Host%20our%20website%20on%20Netlify)
 
