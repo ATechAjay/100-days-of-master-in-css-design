@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 51</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: #888;
+      }
+      button {
+        font-size: 26px;
+        padding: 20px 40px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 3px;
+        border: none;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+        white-space: nowrap;
+        width: 200px;
+        height: 80px;
+      }
+
+      span {
+        position: absolute;
+        line-height: 80px;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 3px;
+      }
+
+      .orange {
+        background: orange;
+      }
+
+      .orange:hover ~ .white {
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+      }
+
+      .white {
+        background: white;
+        transition: all 0.5s;
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+      }
+
+      .white:hover {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <button>
+      <span class="orange">hover me</span>
+      <span class="white">hover me</span>
+    </button>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjacent seletors</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: #888;
+        flex-direction: column;
+      }
+
+      div + h3 {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Adjacent seletor(+)</h1>
+    <div></div>
+    <h3>1st para {Applied}</h3>
+    <h3>2nd para</h3>
+    <h3>3rd para</h3>
+
+    <div>
+      <h3>Next</h3>
+    </div>
+    <h3>Next 2 {Also applied}</h3>
+    <h3>Next 3</h3>
+    <h3>Next 4</h3>
+
+    <section>
+      <div>
+        <h3>Not applied</h3>
+      </div>
+      <h3>Applied</h3>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 50</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #c33764, #1d2671);
+      }
+
+      .container {
+        width: 300px;
+        height: 300px;
+        perspective: 700px;
+      }
+
+      .child {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        transform-style: preserve-3d;
+        transition: all 1s;
+      }
+
+      .container:hover .child {
+        transform: rotateY(180deg);
+      }
+
+      .front-img {
+        backface-visibility: hidden;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-radius: 7px;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 7px;
+      }
+
+      .back-info {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to right,
+          #a8ff78,
+          #78ffd6
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        transform: rotateY(180deg);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.5s;
+        border-radius: 7px;
+      }
+
+      .back-info h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 34px;
+        letter-spacing: 1px;
+      }
+
+      h1 span {
+        color: orange;
+      }
+      .back-info a {
+        display: inline-block;
+        font-size: 24px;
+        margin-top: 28px;
+        padding: 10px 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        border-radius: 100px;
+        transition: all 0.5s;
+        background: #4a00e0;
+      }
+
+      .back-info a:hover {
+        background: #6e33e6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child">
+        <div class="front-img">
+          <img src="img/Ajay.jpg" alt="ATechAjay" />
+        </div>
+
+        <div class="back-info">
+          <h1>ATech<span>Ajay</span></h1>
+          <p>
+            ⭐ Fall in love with HTML, CSS, JS ⭐ l love to make notes and
+            videos then share with my great audience ⭐ Tweets About Web
+            development
+          </p>
+          <a target="_ajay" href="https://twitter.com/ATechAjay">connect</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

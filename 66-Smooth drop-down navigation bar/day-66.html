@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        /* align-items: center; */
+        justify-content: flex-end;
+        font-family: sans-serif;
+        background:url(img/flower-2.jpg);
+        background-size: cover;
+        color: white;
+      }
+
+      nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        gap: 24px;
+        background: #ffffff80;
+      }
+
+      nav ul li {
+        color: green;
+        padding: 10px 20px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        font-size: 24px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      nav ul li:hover {
+          background: #ffffffb3;
+          color: black;
+      }
+
+      /* drop down */
+
+      .drop {
+        position: relative;
+      }
+
+      .dropDown {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: calc(100% + 1px);
+        left: 0%;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease-in;
+      }
+
+
+      .drop:hover .dropDown {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      
+      .dropDown li {
+        white-space: nowrap;
+      }
+
+      .dropDown .sub-menu:hover {
+        background: orange;
+      }
+      .sub-menu {
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- logo -->
+      <nav>
+        <ul>
+          <li>home</li>
+          <li class="drop">
+            our course
+            <ul class="dropDown">
+              <li class="sub-menu">css</li>
+              <li class="sub-menu">javascript</li>
+              <li class="sub-menu">php</li>
+              <li class="sub-menu">python</li>
+            </ul>
+          </li>
+          <li>blog</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 81</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        line-height: 1;
+        background: rgba(0, 0, 0, 0.2);
+      }
+
+      .parent {
+        height: 480px;
+        width: 300px;
+        padding: 20px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+      }
+      .parent h1 {
+        text-transform: capitalize;
+        font-size: 38px;
+        letter-spacing: 2px;
+        color: dodgerblue;
+      }
+      .parent h1,
+      .parent p {
+        text-align: center;
+        margin-bottom: 28px;
+      }
+
+      .parent p {
+        font-size: 18px;
+        line-height: 1.3;
+      }
+      .input-field {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      .input-field label {
+        font-size: 17px;
+        text-transform: capitalize;
+      }
+      .input-field input {
+        padding: 8px;
+        outline: none;
+        border: none;
+        border-radius: 9px;
+        font-weight: 600;
+        font-size: 16px;
+        background: rgba(0, 0, 0, 0.1);
+        transition: all 0.3s;
+      }
+      .input-field input:focus {
+        box-shadow: 0px 0px 5px #0000005d;
+        background: rgba(255, 255, 255, 0.7);
+      }
+      .input-box button {
+        margin-top: 12px;
+        width: 100%;
+        padding: 12px 0;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        border: none;
+        background: #1e90ff;
+        color: #fff;
+        border-radius: 9px;
+        cursor: pointer;
+        transition: all 0.3s;
+        position: relative;
+      }
+
+      .input-box button::before {
+        content: "triangle?";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #1873cc;
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        clip-path: circle(0 at center);
+        transition: all 0.3s;
+      }
+
+      .input-box button:hover::before {
+        clip-path: circle(100% at center);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <h1>is triangle</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod
+        distinctio.
+      </p>
+
+      <div class="input-box">
+        <div class="input-field">
+          <label>angle-1 (deg)</label>
+          <input type="number" min="0" />
+        </div>
+        <div class="input-field">
+          <label>angle-2 (deg)</label>
+          <input type="number" min="0" />
+        </div>
+        <div class="input-field">
+          <label>angle-3 (deg)</label>
+          <input type="number" min="0" />
+        </div>
+
+        <button>triangle?</button>
+      </div>
+    </div>
+  </body>
+</html>

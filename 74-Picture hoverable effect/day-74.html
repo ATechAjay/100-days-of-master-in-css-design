@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 74</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #7f00ff, #e100ff);
+      }
+
+      .parent {
+        width: 500px;
+        height: 500px;
+        border: 10px solid #ffffff;
+        position: relative;
+      }
+      .left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: url(img/Ajay.jpg);
+        background-size: cover;
+        background-position: center;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+      .left,
+      .right {
+        transition: all 0.5s;
+      }
+
+      .right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: url(img/Ajay.jpg);
+        filter: grayscale(80%);
+        filter: hue-rotate(180deg);
+        background-size: cover;
+        background-position: center;
+        clip-path: polygon(48% 0, 100% 0, 100% 100%, 48% 100%);
+      }
+
+      .right:hover {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+
+      .left:hover ~ .right {
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>

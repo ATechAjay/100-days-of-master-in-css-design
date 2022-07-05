@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      h2 {
+        position: absolute;
+        top: 1rem;
+        font-size: 2rem;
+      }
+      span {
+        color: dodgerblue;
+      }
+
+      /* 
+1. How to prevent use select?
+2. Neumorphism design?
+3. How to build this layout using CSS Grid?
+4. How to select one element except one element?
+
+*/
+
+      body {
+        user-select: none;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        font-size: 62.5%;
+        background: #e9ecef;
+      }
+
+      .parent {
+        height: 34.3rem;
+        width: 25rem;
+        box-shadow: 15px 15px 30px #00000038, -5px -5px 20px #ffffff;
+        border-radius: 8px;
+      }
+
+      .child {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 2rem;
+      }
+
+      .output {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: right;
+        grid-column: 1/4;
+        box-shadow: inset 5px 5px 10px #00000038, inset -5px -5px 20px #ffffff;
+      }
+      .sub-child:hover {
+        box-shadow: inset 5px 5px 10px #00000038, inset -5px -5px 20px #ffffff;
+      }
+      .result {
+        grid-column: 1/5;
+        /* or */
+        /* grid-column: -5/-1; */
+      }
+
+      .sub-child {
+        padding: 1.1rem;
+        font-size: 16px;
+        border: none;
+        background: transparent;
+        border-radius: 8px;
+      }
+
+      .sub-child:not(.output) {
+        cursor: pointer;
+        box-shadow: 5px 5px 10px #00000038, -5px -5px 20px #ffffff;
+      }
+      .dot {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>
+      Follow <span>ATechAjay</span> on twitter for 100 awesome CSS design!
+    </h2>
+    <div class="parent">
+      <div class="child">
+        <button class="sub-child output">output</button>
+        <button class="sub-child">AC</button>
+        <button class="sub-child">1</button>
+        <button class="sub-child">2</button>
+        <button class="sub-child">3</button>
+        <button class="sub-child">+</button>
+        <button class="sub-child">4</button>
+        <button class="sub-child">5</button>
+        <button class="sub-child">6</button>
+        <button class="sub-child">-</button>
+        <button class="sub-child">7</button>
+        <button class="sub-child">8</button>
+        <button class="sub-child">9</button>
+        <button class="sub-child">*</button>
+        <button class="sub-child">00</button>
+        <button class="sub-child">0</button>
+        <button class="sub-child dot">.</button>
+        <button class="sub-child">/</button>
+        <button class="sub-child result">=</button>
+      </div>
+    </div>
+  </body>
+</html>

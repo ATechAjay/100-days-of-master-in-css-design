@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project section</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        font-size: 62.5%;
+      }
+
+      section {
+        margin: 0 auto;
+        padding: 30px;
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        /* autofits fits to its column, or 
+        minimum width of the column = 320px
+        maximum width of the column = 1fr
+     
+       width: 100%; */
+        gap: 4rem;
+        max-width: 1280px;
+        /* 130rem === 1300px */
+        /* maximum width of the container! */
+      }
+
+      h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 30px 0 48px 0;
+      }
+      .project {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        text-decoration: none;
+      }
+      .project::before {
+        content: "calculator";
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: #ffffff;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: -100%;
+        border-radius: 10px;
+        transition: all 0.5s;
+        background: linear-gradient(#00000033, #0000009a);
+      }
+
+      .project:hover::before {
+        top: 0;
+      }
+
+      .project-img {
+        border-radius: 10px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>projects</h2>
+    <section>
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+      <a class="project" href="#"
+        ><img
+          class="project-img"
+          src="https://github.com/ATechAjay/img_repo/blob/main/calc.jpg?raw=true"
+          alt="calculator design by ATechAjay"
+      /></a>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 38</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: sans-serif;
+        text-align: center;
+        background: #000;
+        color: #fff;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 64px;
+        letter-spacing: 4px;
+        position: relative;
+        margin-left: 200px;
+      }
+
+      h1::before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        right: -87%;
+        transition: all 0.5s;
+        animation: text 3s linear infinite alternate;
+        color: inherit;
+        text-align: center;
+        line-height: 100px;
+        font-family: "kaushan script";
+        letter-spacing: 3px;
+      }
+
+      @keyframes text {
+        0% {
+          content: "---coder!";
+          text-shadow: 0 0 5px #ff00ff, 0 0 14px #ff00ff, 0 0 20px #ff00ff,
+            0 0 25px #ff00ff, 0 0 30px #ff00ff;
+        }
+        50% {
+          content: "designer!";
+          text-shadow: 0 0 5px #228dff, 0 0 14px #228dff, 0 0 20px #228dff,
+            0 0 25px #228dff, 0 0 30px #228dff;
+        }
+        100% {
+          content: "creator!";
+          text-shadow: 0 0 5px #b6ff00, 0 0 14px #b6ff00, 0 0 20px #b6ff00,
+            0 0 25px #b6ff00, 0 0 30px #b6ff00;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>i am ajay, a</h1>
+  </body>
+</html>

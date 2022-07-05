@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/581f7d84ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>day 62</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #fc00ff, #00dbde);
+      }
+
+      .icon-box {
+        height: 300px;
+        width: 300px;
+        background: transparent;
+        border-radius: 50%;
+        border: 3px solid #ffffff;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .icon-box::before {
+        content: "";
+        position: absolute;
+        height: 89%;
+        width: 89%;
+        background: transparent;
+        border-radius: 50%;
+        border: 4px dotted #ffffff;
+        animation: rotate 13s linear infinite;
+        opacity: 0;
+        transition: all 0.7s;
+      }
+      .icon-box:hover::before {
+        opacity: 1;
+      }
+      .icon {
+        height: 80%;
+        width: 80%;
+        background: transparent;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.7s;
+      }
+
+      .icon-box:hover .icon {
+        background: #ffffff;
+      }
+      .icon-box:hover .fab {
+        color: #000;
+      }
+      .fab {
+        font-size: 170px;
+        color: #fff;
+        transition: all 0.7s;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="icon-box">
+      <div class="icon">
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 70</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #888;
+        overflow: hidden;
+      }
+      .parent {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        transform: rotate(-30deg) scale(2);
+      }
+
+      .orange,
+      .white,
+      .green {
+        height: 33.33%;
+        width: 100%;
+        transition: all 2s;
+      }
+      .orange {
+        background: #ff9933;
+      }
+      .white {
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .green {
+        background: #138808;
+      }
+
+      .white img {
+        width: 15%;
+        animation: rotate 3s infinite linear;
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="orange"></div>
+      <div class="white">
+        <img src="img/chakra.png" alt="Ashoka chakra" />
+      </div>
+      <div class="green"></div>
+    </div>
+  </body>
+</html>
